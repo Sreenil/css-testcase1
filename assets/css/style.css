@@ -1,0 +1,114 @@
+.box
+{
+    background-color: rgb(143, 198, 33);
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    height: 200px;
+}
+.box h1,p
+{
+    color: rgb(56, 246, 43);
+}
+
+button
+{
+    display: inline-block;
+    background-color: blue;
+    text-align: center;
+}
+
+.text-box
+{
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+}
+
+.text-box p
+{
+    color: black;
+}
+
+.image-container
+{
+    background-color: aliceblue;
+    display: flex;
+}
+
+.image-container .box-1
+{
+    width: 33.33%;
+    padding: 0;
+    margin: 0;
+}
+
+.image-container .box-2
+{
+    width: 33.33%;
+    padding: 0;
+    margin: 0;
+}
+
+.image-container .box-3
+{
+    width: 33.33%;
+    padding: 0;
+    margin: 0;
+}
+
+.Text1 {
+    display: flex;
+    background-color: aliceblue;
+  }
+  
+  .text3 {
+    flex: 1;
+    margin: 0 5px;
+  }
+  .text3 h4 {
+    color: rgb(91, 91, 196);
+  }
+
+  .text3 p {
+    color: black;
+  }
+
+#box6 {
+    background-color: #d3b301;
+    height: 450px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+.text5 p
+{
+    color: black;
+}
+
+  .circles-container {
+    margin-top: 20px;
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .circle img {
+    width: 90%;
+    height: 100%;
+    border-radius: 50%; 
+    object-fit: cover;
+  }
+  
+  .Text7
+  {
+    background-color: #d3b301;
+    display: flex;
+  }
+
+  .Text7 button
+  {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+  }
